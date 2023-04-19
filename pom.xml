@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>IntegradaTI</groupId>
+	<artifactId>IntegradaTI</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>IntegradaTI</name>
+	<description>Integrada de TI</description>
+
+	<repositories>
+		<repository>
+			<id>jitpack.io</id>
+			<url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.github.SrBalbucio</groupId>
+			<artifactId>SQLiteAPI</artifactId>
+			<version>main-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<properties>
+		<maven.compiler.source>8</maven.compiler.source>
+		<maven.compiler.target>8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<!--
+		
+		Pra desenvolver desativei o plugin de compilação do maven
+		mas
+		caso queira compilar adicione-o denovo.
+		
+		<plugins>
+			<plugin>
+		<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+		<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+		</configuration>
+			</plugin>
+		</plugins>
+		-->
+	</build>
+</project>
